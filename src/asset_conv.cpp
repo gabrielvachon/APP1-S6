@@ -360,7 +360,7 @@ int main(int argc, char** argv)
     }
 
     // TODO: change the number of threads from args.
-    Processor proc;
+    Processor proc(std::stoi(argv[2]));
     
     while (!std::cin.eof()) {
 
